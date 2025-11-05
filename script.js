@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return isFormal ? "Quả thật, quá trình học tập có nhiều thử thách, nhưng cũng là những trải nghiệm đáng quý. 📚" : pick(responses.hardship);
         if (match(['làm gì', 'đang làm ở đâu', 'làm ở đâu', 'công việc'], 'job'))
             return isFormal ? "Hiện tại tôi đang công tác tại <strong>Zalo</strong> với vai trò Kỹ sư Trí tuệ Nhân tạo. 🤖" : pick(responses.job);
-        if (match(['lễ xong', 'xong rồi đi đâu', 'đi chơi không', 'có kèo không'], 'afterparty'))
+        if (match(['lễ xong', 'xong rồi đi đâu', 'đi chơi không', 'có kèo không', 'sau lễ','sau buổi lễ'], 'afterparty'))
             return isFormal ? "Sau buổi lễ, hiện tôi chưa có kế hoạch cụ thể. Rất vui nếu được giao lưu cùng quý khách. 🎉" : pick(responses.afterparty);
 
         return pick(responses.unknown);
