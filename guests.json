@@ -1,0 +1,27 @@
+{
+  "giangphan": {
+    "name": "Khánh Giang",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "toulalinh": {
+    "name": "Linh",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "linhphan": {
+    "name": "Linh Phan",
+    "style": "friendly",
+    "title": "nhóc"
+  },
+  "mylinh": {
+    "name": "Linh",
+    "style": "friendly",
+    "title": "chị"
+  },
+  "vananh": {
+    "name": "Vân Anh",
+    "style": "friendly",
+    "title": "chị"
+  }
+}

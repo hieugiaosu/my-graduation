@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited! | Graduation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="image-placeholder">
+                <img id="guest-image" src="514952281_2154909561647370_5729472297578840521_n.jpg" alt="Your Image">
+                <!-- <p class="upload-hint">📸 Replace with your graduation photo!</p> -->
+            </div>
+            <h1 id="greeting"><span id="guest-name"></span>!</h1>
+            <p class="intro-text">🎓 Thế Hiểu sắp tốt nghiệp rồi! Đến chung vui với Thế Hiểu nha!</p>
+            <div class="confetti">🎉 🎊 🎈</div>
+        </header>
+
+        <main>
+            <div class="content-wrapper">
+                <div class="left-column">
+                    <div class="chat-section">
+                        <h2><i class="fas fa-comments"></i> Hỏi đê!</h2>
+                        <div class="chat-container">
+                            <div id="chat-box">
+                                <p class="bot-intro"><strong>Thế Hiểu:</strong> Chào bạn! Bạn có thể hỏi mình về thời gian, địa điểm, hoặc chuyên ngành nhé! 😊</p>
+                            </div>
+                            <div class="input-area">
+                                <input type="text" id="user-input" placeholder="Vd: Mấy giờ bắt đầu?">
+                                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-section">
+                        <h2><i class="fas fa-user-graduate"></i> Vài điều về mình</h2>
+                        <p>Mình đã hoàn thành chương trình học tại <strong>Trường Đại học Bách Khoa - ĐHQG TPHCM</strong>, với chuyên ngành <strong>Khoa học Máy tính</strong> và định hướng <strong>Trí tuệ nhân tạo ứng dụng</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="right-column">
+                    <div class="details-section">
+                        <h2><i class="fas fa-calendar-check"></i> Chuyện gì sắp xảy ra?</h2>
+                        <div class="details-grid">
+                            <div class="detail-item">
+                                <i class="fas fa-clock detail-icon"></i>
+                                <h3>Ngày trọng đại</h3>
+                                <p>28/10/2025</p>
+                                <p class="detail-time">⏰ 10:00 Sáng</p>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-building detail-icon"></i>
+                                <h3>Nơi diễn ra</h3>
+                                <p>Hội trường A5</p>
+                                <p class="detail-time">🏛️ ĐH Bách Khoa TPHCM</p>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt detail-icon"></i>
+                                <h3>Địa chỉ cụ thể</h3>
+                                <p>268 Lý Thường Kiệt</p>
+                                <p class="detail-time">📍 Phường Diên Hồng</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-section">
+                        <h2><i class="fas fa-map-location-dot"></i> Tìm đường đến đây nè!</h2>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447176339834!2d106.657957!3d10.772944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ecb3c95df29%3A0x99964f5b3f4323d!2sHo Chi Minh City University of Technology!5e0!3m2!1sen!2s!4v1620823930852!5m2!1sen!2s"
+                                width="100%" 
+                                height="350" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>💝 Hẹn gặp lại ở đó! 💝</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
