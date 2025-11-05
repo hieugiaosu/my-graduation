@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Friendly tone vs Formal tone difference
         const isFormal = greetingStyle === 'formal';
 
-        if (match(['mấy giờ', 'giờ nào', 'bắt đầu', 'đi lúc nào', 'đi mấy giờ', 'đến lúc nào'], 'time'))
+        if (match(['mấy giờ', 'giờ nào', 'bắt đầu', 'đi lúc nào', 'đi mấy giờ', 'đến lúc nào','time'], 'time'))
             return isFormal ? "Buổi lễ sẽ bắt đầu vào lúc <strong>10 giờ sáng</strong> ngày 28/11/2025. Rất mong quý khách sắp xếp thời gian tham dự. 🙏" : pick(responses.time);
         if (match(['ở đâu', 'địa điểm', 'chỗ nào', 'hội trường', 'nơi tổ chức'], 'location'))
             return isFormal ? "Buổi lễ được tổ chức tại <strong>đại học Bách Khoa cơ sở quận 10</strong>, Đại học Bách Khoa - ĐHQG TP.HCM. 📍" : pick(responses.location);
