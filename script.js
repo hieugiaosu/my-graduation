@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const guest = guests[guestId];
             const guestName = guest ? guest.name : 'bạn';
             greetingStyle = guest ? guest.style : 'formal';
-            const honorific = guest ? guest.title : 'bạn';
+            const honorific = guest ? guest.title : '';
 
             guestNameElement.textContent = guestName;
 
