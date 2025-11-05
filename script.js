@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // === Response templates ===
     const responses = {
         time: [
-            "Lễ bắt đầu lúc <strong>10 giờ sáng</strong> ngày 28/10/2025 nha! Tới sớm tí cho vui nè ⏰",
+            "Lễ bắt đầu lúc <strong>10 giờ sáng</strong> ngày 28/11/2025 nha! Tới sớm tí cho vui nè ⏰",
             "Tầm <strong>10 giờ sáng</strong> là có mặt là đẹp nhất đó, kẻo lỡ phần chính nha 😆",
             "10h sáng nghen, đừng ngủ nướng nhaaa ☀️",
             "Khoảng 10 giờ sáng đó, rảnh thì qua sớm tám chơi nè.",
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const isFormal = greetingStyle === 'formal';
 
         if (match(['mấy giờ', 'giờ nào', 'bắt đầu', 'đi lúc nào', 'đi mấy giờ', 'đến lúc nào'], 'time'))
-            return isFormal ? "Buổi lễ sẽ bắt đầu vào lúc <strong>10 giờ sáng</strong> ngày 28/10/2025. Rất mong quý khách sắp xếp thời gian tham dự. 🙏" : pick(responses.time);
+            return isFormal ? "Buổi lễ sẽ bắt đầu vào lúc <strong>10 giờ sáng</strong> ngày 28/11/2025. Rất mong quý khách sắp xếp thời gian tham dự. 🙏" : pick(responses.time);
         if (match(['ở đâu', 'địa điểm', 'chỗ nào', 'hội trường', 'nơi tổ chức'], 'location'))
             return isFormal ? "Buổi lễ được tổ chức tại <strong>Hội trường A5</strong>, Đại học Bách Khoa - ĐHQG TP.HCM. 📍" : pick(responses.location);
         if (match(['học gì', 'ngành gì', 'major', 'chuyên ngành'], 'major'))
