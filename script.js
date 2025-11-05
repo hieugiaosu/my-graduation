@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "10 giờ sáng là khai lễ, nhớ tới sớm chụp hình đẹp nữa 😎"
         ],
         location: [
-            "Ở <strong>Hội trường A5</strong>, Đại học Bách Khoa - ĐHQG TPHCM (268 Lý Thường Kiệt, Q.10, HCM) nha 📍",
-            "Địa điểm là <strong>Hội trường A5</strong> Bách Khoa đó, ngay đường Lý Thường Kiệt luôn á!",
-            "Tới <strong>Hội trường A5</strong> của Bách Khoa nghen, nhìn to lắm không sợ lạc đâu 😄",
-            "Tổ chức tại <strong>Hội trường A5</strong> – Bách Khoa, nơi tụi mình cực khổ suốt mấy năm nè 😅",
-            "Ở Bách Khoa đó, <strong>Hội trường A5</strong> – có biển chỉ dẫn đàng hoàng luôn!"
+            "Ở <strong>đại học Bách Khoa cơ sở quận 10</strong>, Đại học Bách Khoa - ĐHQG TPHCM (268 Lý Thường Kiệt, Q.10, HCM) nha 📍",
+            "Địa điểm là <strong>đại học Bách Khoa cơ sở quận 10</strong> Bách Khoa đó, ngay đường Lý Thường Kiệt luôn á!",
+            "Tới <strong>đại học Bách Khoa cơ sở quận 10</strong> của Bách Khoa nghen, nhìn to lắm không sợ lạc đâu 😄",
+            "Tổ chức tại <strong>đại học Bách Khoa cơ sở quận 10</strong> – Bách Khoa, nơi tụi mình cực khổ suốt mấy năm nè 😅",
+            "Ở Bách Khoa đó, <strong>đại học Bách Khoa cơ sở quận 10</strong> – có biển chỉ dẫn đàng hoàng luôn!"
         ],
         major: [
             "Mình học <strong>Khoa học Máy tính</strong>, chuyên ngành <strong>Trí tuệ nhân tạo ứng dụng</strong> nha 🤖",
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (match(['mấy giờ', 'giờ nào', 'bắt đầu', 'đi lúc nào', 'đi mấy giờ', 'đến lúc nào'], 'time'))
             return isFormal ? "Buổi lễ sẽ bắt đầu vào lúc <strong>10 giờ sáng</strong> ngày 28/11/2025. Rất mong quý khách sắp xếp thời gian tham dự. 🙏" : pick(responses.time);
         if (match(['ở đâu', 'địa điểm', 'chỗ nào', 'hội trường', 'nơi tổ chức'], 'location'))
-            return isFormal ? "Buổi lễ được tổ chức tại <strong>Hội trường A5</strong>, Đại học Bách Khoa - ĐHQG TP.HCM. 📍" : pick(responses.location);
+            return isFormal ? "Buổi lễ được tổ chức tại <strong>đại học Bách Khoa cơ sở quận 10</strong>, Đại học Bách Khoa - ĐHQG TP.HCM. 📍" : pick(responses.location);
         if (match(['học gì', 'ngành gì', 'major', 'chuyên ngành'], 'major'))
             return isFormal ? "Tôi tốt nghiệp ngành <strong>Khoa học Máy tính</strong>, chuyên ngành <strong>Trí tuệ nhân tạo ứng dụng</strong>. 🤖" : pick(responses.major);
         if (match(['mặc gì', 'trang phục', 'dress'], 'dresscode'))

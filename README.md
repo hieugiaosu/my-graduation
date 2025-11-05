@@ -9,7 +9,7 @@ Features personalized greetings with honorific titles, intelligent chatbot, and 
 
 * **Name:** Phạm Thế Hiểu
 * **Date:** 28/10/2025, 10:00 AM
-* **Place:** Hội trường A5, Trường Đại học Bách Khoa - ĐHQG TPHCM
+* **Place:** đại học Bách Khoa cơ sở quận 10, Trường Đại học Bách Khoa - ĐHQG TPHCM
 * **Address:** 268 Lý Thường Kiệt, Phường Diên Hồng, TP.HCM
 * **Coordinates:** 10.772944, 106.657957
 * **Major:** Khoa học máy tính
