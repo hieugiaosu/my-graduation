@@ -98,6 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "Câu này khó quá, mình chịu luôn 😵",
             "Bug rồi :))) thông cảm nha 😅",
             "Vô đây hỏi nè fen <a href='google.com'>click zô</a> may ra biết 🤣"
+        ],
+        hadilao: [
+            "bao thì ăn :)))"
         ]
     };
 
@@ -110,7 +113,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Friendly tone vs Formal tone difference
         const isFormal = greetingStyle === 'formal';
-
+        if (match(['hà di lao', 'ha di lao', 'hadilao', 'haidilao', 'hotpot', "lẩu"], 'hadilao'))
+            return isFormal ? "Rất tiếc, hiện tại tôi chưa có kế hoạch cho việc này. Mong quý khách thông cảm. 🍲" : pick(responses.hadilao);
         if (match(['mấy giờ', 'giờ nào', 'bắt đầu', 'đi lúc nào', 'đi mấy giờ', 'đến lúc nào','time'], 'time'))
             return isFormal ? "Buổi lễ sẽ bắt đầu vào lúc <strong>10 giờ sáng</strong> ngày 28/11/2025. Rất mong quý khách sắp xếp thời gian tham dự. 🙏" : pick(responses.time);
         if (match(['ở đâu', 'địa điểm', 'chỗ nào', 'hội trường', 'nơi tổ chức'], 'location'))
