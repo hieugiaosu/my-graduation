@@ -33,5 +33,10 @@
     "name": "Lynh",
     "style": "friendly",
     "title": "nhóc"
+  },
+  "thanhtam": {
+    "name": "Thanh Tâm",
+    "style": "friendly",
+    "title": "bạn"
   }
 }
