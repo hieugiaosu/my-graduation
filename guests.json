@@ -133,5 +133,45 @@
     "name": "Bảo",
     "style": "friendly",
     "title": "bạn"
+  },
+  "speechteam": {
+    "name": "Speech Team",
+    "style": "friendly",
+    "title": "anh em"
+  },
+  "datgao": {
+    "name": "Đạt",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "khanh": {
+    "name": "Khánh",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "NgocLan": {
+    "name": "Ngọc Lan",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "DieuLinh":{
+    "name": "Diệu Linh",
+    "style": "friendly",
+    "title": "em"
+  },
+  "HaiDang": {
+    "name": "Hải Đăng",
+    "style": "friendly",
+    "title": "bro"
+  },
+  "MinhVu": {
+    "name": "Vũ",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "Huy": {
+    "name": "Huy",
+    "style": "friendly",
+    "title": "anh"
   }
 }
