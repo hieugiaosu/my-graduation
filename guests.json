@@ -183,5 +183,10 @@
     "name": "Tiên",
     "style": "friendly",
     "title": "bạn"
+  },
+  "tuyettram": {
+    "name": "Tuyết Trâm",
+    "style": "friendly",
+    "title": "bạn"
   }
 }
