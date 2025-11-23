@@ -43,5 +43,95 @@
     "name": "MCMA",
     "style": "friendly",
     "title": "anh chị"
+  },
+  "thuzang": {
+    "name": "Thu Giang",
+    "style": "friendly",
+    "title": "em"
+  },
+  "ngocson": {
+    "name": "Sơn",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "nogate": {
+    "name": "No Gate",
+    "style": "friendly",
+    "title": "huynh đệ"
+  },
+  "thang": {
+    "name": "Thắng",
+    "style": "friendly",
+    "title": "người anh em"
+  },
+  "kim": {
+    "name": "Kim",
+    "style": "friendly",
+    "title": "người anh em"
+  },
+  "kiettran": {
+    "name": "Kiệt",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "giahy": {
+    "name": "Gia Hy",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "tuanh": {
+    "name": "Tú Anh",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "diemquynh": {
+    "name": "Diễm Quỳnh",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "maiphuong": {
+    "name": "Mai Phương",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "LeDimx": {
+    "name": "Diễm",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "Truc": {
+    "name": "Trúc",
+    "style": "friendly",
+    "title": "em"
+  },
+  "V2TBK": {
+    "name": "V2T in Bách Khoa",
+    "style": "friendly",
+    "title": "anh em"
+  },
+  "nien": {
+    "name": "Niên",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "huyphuong": {
+    "name": "Niên",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "tram": {
+    "name": "Trâm",
+    "style": "friendly",
+    "title": "em"
+  },
+  "kietthaitu": {
+    "name": "Kiệt",
+    "style": "friendly",
+    "title": "em"
+  },
+  "giabao": {
+    "name": "Bảo",
+    "style": "friendly",
+    "title": "bạn"
   }
 }
