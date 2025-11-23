@@ -173,5 +173,15 @@
     "name": "Huy",
     "style": "friendly",
     "title": "anh"
+  },
+  "ngox": {
+    "name": "Phấn",
+    "style": "friendly",
+    "title": "em"
+  },
+  "tien": {
+    "name": "Tiên",
+    "style": "friendly",
+    "title": "bạn"
   }
 }
