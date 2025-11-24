@@ -193,5 +193,10 @@
      "name": "KSTN",
     "style": "friendly",
     "title": "anh em"
+  },
+  "ost": {
+    "name": "Ong Sáng Tạo",
+    "style":"friendly",
+    "title":"anh chị em"
   }
 }
