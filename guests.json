@@ -198,5 +198,30 @@
     "name": "Ong Sáng Tạo",
     "style":"friendly",
     "title":"anh chị em"
+  },
+  "canh": {
+    "name": "Cảnh",
+    "style":"friendly",
+    "title": "thầy giáo"
+  },
+  "yennhu": {
+    "name": "Yến Như",
+    "style":  "friendly",
+    "title": "bạn"
+  },
+  "nguyet": {
+    "name": "Nguyệt",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "cac": {
+    "name": "Các",
+    "style": "friendly",
+    "title": "bạn"
+  },
+  "master": {
+    "name": "Hội bàn cuối môn ML",
+    "style": "friendly",
+    "title": "anh chị"
   }
 }
